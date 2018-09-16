@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Make Data Shine - Visual News and Stories</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="index.html"><img src="img/logo.png" width="90"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" role="button" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" role="button" href="dataviz.html">Data Viz</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" role="button" href="about.html">About</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" role="button" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+	</div>
+</nav>
+
+
+
+</div>
+<hr class="my-4">
+</div>
+
+
+<!--- Welcome Section -->
+<div class="container-fluid" padding>
+<div class="row welcome text-center" padding>
+	<div class="col-12">
+		<h1 class="display-4">#nofakenews</h1>
+	</div>
+	<div class="col-12">
+		<p class="lead">Through data visualized, we can tell stories worth exploring and learning something new. We invite you to share here data visualizations that can tell meaningful news and stories from all over the world. </p>
+	</div>
+</div>
+</div>
+
+
+
+<form id="contact-form" method="post" action="contact.php" role="form" padding>
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">First Name *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Last Name *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_need">Please specify your inquiry </label>
+                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value=""></option>
+                        <option value="Request quotation">Looking for a partnership</option>
+                        <option value="Request order status">Interested in advertising</option>
+                        <option value="Request copy of an invoice">Excited to share feedback</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="What would like to tell us *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="center">
+                <input type="submit" class="btn btn-primary btn-send" value="Send message">
+
+            </div>
+        </div>
+
+    </div>
+
+</form>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+
+	<div class="col-12 social padding">
+		<a href="https://www.facebook.com/makedatashine/"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/makedatashine/"><i class="fab fa-instagram"></i></a>
+		<a href="https://twitter.com/makedatashine"><i class="fab fa-twitter"></i></a>
+		<a href="https://plus.google.com/u/0/115361318241311018119"><i class="fab fa-google-plus-g"></i></a>
+	</div>
+
+	<div class="col-12">
+		<img src="img/logo.png" class="img-footer">
+	</div>
+</div>
+</div>
+</footer >
+
+</body>
+</html>
